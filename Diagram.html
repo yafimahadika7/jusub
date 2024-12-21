@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penjualan</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Laporan Penjualan</h1>
+
+        <!-- Tabel Penjualan -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bulan</th>
+                        <th>Januari</th>
+                        <th>Februari</th>
+                        <th>Maret</th>
+                        <th>April</th>
+                        <th>Mei</th>
+                        <th>Juni</th>
+                        <th>Juli</th>
+                        <th>Agustus</th>
+                        <th>September</th>
+                        <th>Oktober</th>
+                        <th>November</th>
+                        <th>Desember</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022</td>
+                        <td>4017</td><td>6135</td><td>7091</td><td>5841</td>
+                        <td>5036</td><td>4547</td><td>3467</td><td>3970</td>
+                        <td>6313</td><td>3595</td><td>9207</td><td>5945</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>2416</td><td>4136</td><td>7935</td><td>8004</td>
+                        <td>9505</td><td>5026</td><td>6108</td><td>6343</td>
+                        <td>9404</td><td>9280</td><td>9287</td><td>8689</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Canvas untuk Diagram -->
+        <div class="chart-container">
+            <canvas id="chartPenjualan"></canvas>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="img/programming.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/programming.png" type="image/x-icon" />
     <!--=============== BOXICONS ===============-->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Personal Portfolio</title>
   </head>
   <body>
@@ -82,7 +82,7 @@
           </div>
 
           <div class="home__handle">
-            <img src="img/alby.png" alt="" class="home__img" />
+            <img src="assets/img/alby.png" alt="" class="home__img" />
           </div>
 
           <div class="home__social">
@@ -104,7 +104,7 @@
         <h2 class="section__title">Tentang Saya</h2>
 
         <div class="about__container container grid">
-          <img src="img/profil.jpg" alt="" class="about__img" />
+          <img src="assets/img/profil.jpg" alt="" class="about__img" />
           <div class="about__data">
            
             <p class="about__description">
@@ -215,17 +215,38 @@
 
         <div class="certificate__container bd-grid">
          
-          <a href="Sertifikasi/Java Fundamentals.page1.png" class="certificate__img">
-            <img src="Sertifikasi/Java Fundamentals.page1.png" alt="" />
-          </a>
-          
-          <a href="Sertifikasi/Sertifikat Complation_001.png" class="certificate__img">
-            <img src="Sertifikasi/Sertifikat Complation_001.png" alt="" />
-          </a>
-        
-          <a href="Sertifikasi/Git.png" class="certificate__img">
-            <img src="Sertifikasi/Git.png" alt="" />
-          </a>
+          <!-- HTML -->
+          <div class="certificate-item">
+            <a href="assets/Sertifikasi/Java Fundamentals.page1.png" class="certificate__img">
+              <img src="assets/Sertifikasi/Java Fundamentals.page1.png" alt="Java Fundamentals Certificate" />
+            </a>
+            <a href="https://www.sololearn.com/certificates/CC-MU19CUOF" class="btn btn-primary mt-2" target="_blank">View Certificate</a>
+          </div>
+
+          <!-- CSS -->
+          <div class="certificate-item">
+            <a href="assets/Sertifikasi/Sertifikat Complation_001.png" class="certificate__img">
+              <img src="assets/Sertifikasi/Sertifikat Complation_001.png" alt="CSS Certificate" />
+            </a>
+            <a href="https://www.sololearn.com/certificates/CC-QTMP2KXH" class="btn btn-primary mt-2" target="_blank">View Certificate</a>
+          </div>
+
+          <!-- Javascript -->
+          <div class="certificate-item">
+            <a href="assets/Sertifikasi/Git.png" class="certificate__img">
+              <img src="assets/Sertifikasi/Git.png" alt="Javascript Certificate" />
+            </a>
+            <a href="https://www.sololearn.com/certificates/CC-ZVTLS6EM" class="btn btn-primary mt-2" target="_blank">View Certificate</a>
+          </div>
+
+          <!-- Web Development -->
+          <div class="certificate-item">
+            <a href="assets/img/webDevelopment.jpg" class="certificate__img">
+              <img src="assets/img/webDevelopment.jpg" alt="Web Development Certificate" />
+            </a>
+            <a href="https://www.sololearn.com/certificates/CC-XMTXIIDC" class="btn btn-primary mt-2" target="_blank">View Certificate</a>
+          </div>
+
           
           
         </div>
@@ -243,15 +264,14 @@
         </div>
         <div class="work__container container grid">
           <div class="work__card mix web">
-            <img src="./img/webCalculator.png" alt="" class="work__img" />
+            <img src="./assets/img/webCalculator.png" alt="" class="work__img" />
             <h3 class="work__title">Web Calculator</h3>
             <a href="kalkulator.html" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
           </div>
-          
         </div> 
         <div class="work__container container grid">
           <div class="work__card mix web">
-            <img src="img/FormLogin.jpeg" alt="" class="work__img" />
+            <img src="assets/img/FormLogin.jpeg" alt="" class="work__img" />
             <h3 class="work__title">Form login</h3>
             <a href="login.html" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
           </div>
@@ -260,11 +280,28 @@
         <!-- snake -->
         <div class="work__container container grid">
           <div class="work__card mix web">
-            <img src="./img/webSnake.png" alt="" class="work__img" />
+            <img src="./assets/img/webSnake.png" alt="" class="work__img" />
             <h3 class="work__title">Snake Game</h3>
             <a href="Snake.html" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
           </div>
         </div>
+        <!-- Dashboard -->
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="./assets/img/Dashboard.png" alt="Dashboard" class="work__img" />
+            <h3 class="work__title">Dashboard</h3>
+            <a href="UTS.html" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+        </div>
+        <!-- Diagram -->
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="./assets/img/Diagram.png" alt="Dashboard" class="work__img" />
+            <h3 class="work__title">Diagram</h3>
+            <a href="Diagram.html" target="_blank" class="work__button"> Demo<i class="bx bx-right-arrow-alt work__icon"></i> </a>
+          </div>
+        </div>
+        
       </section>
 
       <!--=============== CONTACT ===============-->
@@ -315,10 +352,10 @@
       </div>
     </footer>
     <!--=============== SCROLLREVEAL ===============-->
-    <script src="js/scrollreveal.min.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
     <!--=============== MIXITUP FILTER ===============-->
-    <script src="js/mixitup.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
     <!--=============== MAIN JS ===============-->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
